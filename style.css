@@ -18,18 +18,19 @@ h1 {
     border: 2px solid red;
     padding: 8px;
     margin-top: 30px;
+    background-color: darkcyan;
 }
 
 #weight {
-    width: 200px;
-    height: 25px;
+    width: 210px;
+    height: 35px;
     border-radius: 7px;
     margin: 29px;
 }
 
 #height {
-    width: 200px;
-    height: 25px;
+    width: 210px;
+    height: 35px;
     border-radius: 7px;
     margin: 29px;
 }
@@ -41,5 +42,5 @@ h1 {
     margin: 29px;
     background-color: green;
     color: white;
-    
+
 }
