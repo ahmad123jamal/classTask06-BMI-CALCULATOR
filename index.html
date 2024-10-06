@@ -10,20 +10,26 @@
     <h1>BMI CALCULATOR</h1>
     <div id="main-cont">
         
-        <input type="number" name="weight" id="weight" placeholder="enter your weight">
+        <input type="number" name="weight" id="weight" placeholder="Enter your weight">
         
         
-        <input type="text" name="height" id="height" placeholder="enter your height">
+        <input type="text" name="height" id="height" placeholder="Enter your height">
         
 
         
         <button id="calculate">Calculate</button>
     
         <div id="display-msg">
-            <p>Your BMI</p>
-            <p class="msg"></p>
+            <p></p>
+            <p id="msg"></p>
+        </div>
+
+        <div class="reset">
+            <button id="reset">Reset</button>
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
